@@ -21,7 +21,6 @@ public class BaseAuthService implements AuthService{
         for (int i = 0; i < 10; i++) {
             entries.add(new Entry("login"+i, "pass"+i, "nick"+i));
         }
-        entries.add(new Entry("ser", "gay", "Serj Bolshegrudiy"));
     }
 
     @Override
